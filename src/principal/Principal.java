@@ -59,9 +59,9 @@ public class Principal {
 					edad = lector.nextInt();
 					lector.nextLine();
 					
-					Espectador e = new Espectador(nombre, telefono, edad);
+					//Espectador e = new Espectador(nombre, telefono, edad);
 					
-					System.out.println(teatro.venderLocalidad(fila, butaca, e));
+					System.out.println(teatro.venderLocalidad(fila, butaca,new Espectador(nombre, telefono, edad)));
 					break;
 					
 				case '5':
